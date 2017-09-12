@@ -3,8 +3,8 @@
 # ->Substitute the . for whatever the command prefix is set for your server.<-
 
 # [Format of list is: Command|Usage|Example]
-		
-##					  	Gambling
+
+## 		Gambling
 
 .$ .currency .$$ .$$$ .cash .cur|Check how much currency a person has. (Defaults to yourself)|.$ or .$ @SomeGuy
 
@@ -22,7 +22,7 @@
 
 .wheeloffortune .wheel|Bets a certain amount of currency on the wheel of fortune. Wheel can stop on one of many different multipliers. Won amount is rounded down to the nearest whole number.|.wheel 5
 		
-##					  	Games
+## 		Games
 
 .choose|Chooses a thing from a list of things|.choose Get up;Sleep;Sleep more
 
@@ -34,7 +34,7 @@
 
 .plant|Spend an amount of currency to plant it in this channel. Default is 1. (If bot is restarted or crashes, the currency will be lost)|.plant or .plant 5
 		
-##						Pokemon Battles
+## 	  Pokemon Battles
 
 .attack|Attacks a target with the given move. Use .movelist to see a list of moves your type can use.|.attack "vine whip" @someguy
 
@@ -132,3 +132,38 @@
 .checkstream .cs|Checks if a user is online on a certain streaming platform.|.cs twitch MyFavStreamer
 
 .translate .trans|Translates from>to text. From the given language to the destination language.|.trans en>fr Hello
+
+## Xp
+.experience .xp|Shows your xp stats. Specify the user to show that user's stats instead.|.xp
+
+.xpleaderboard .xplb|Shows current server's xp leaderboard.|.xplb
+
+.xpgleaderboard .xpglb|Shows the global xp leaderboard.|.xpglb
+
+.clubcreate|Creates a club. You must be atleast level 5 Global and not be in the club already.|.clubcreate b1nzy's friends
+
+.clubicon|Sets the club icon.|.clubicon https://i.imgur.com/htfDMfU.png
+
+.clubinfo|Shows information about the club.|.clubinfo b1nzy's friends#123
+
+.clubbans|Shows the list of users who have banned from your club. Paginated. You must be club owner to use this command.|.clubbans 2
+
+.clubapps|Shows the list of users who have applied to your club. Paginated. You must be club owner to use this command.|.clubapps 2
+
+.clubapply|Apply to join a club. You must meet that club's minimum level requirement, and not be on its ban list.|.clubapply b1nzy's friends#123
+
+.clubaccept|Accept a user who applied to your club.|.clubaccept b1nzy#1337
+
+.clubleave|Leaves the club you're currently in.|.clubleave
+
+.clubkick|Kicks the user from the club. You must be the club owner. They will be able to apply again.|.clubkick b1nzy#1337
+
+.clubban|Bans the user from the club. You must be the club owner. They will not be able to apply again.|.clubban b1nzy#1337
+
+.clubunban|Unbans the previously banned user from the club. You must be the club owner.|.clubunban b1nzy#1337
+
+.clublevelreq|Sets the club required level to apply to join the club. You must be club owner. You can't set this number below 5.|.clublevelreq 7
+
+.clubdisband|Disbands the club you're the owner of. This action is irreversible.|.clubdisband
+
+.clublb|Shows club rankings on the specified page.|.clublb 2
